@@ -1,0 +1,57 @@
+/* Sayfa arkaplanı */
+body {
+    background-color: rgb(240, 240, 240); /* Siyah */
+    color: #000000; /* Beyaz */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Başlık */
+h1 {
+    color: rgb(0, 0, 0); /* Kırmızı */
+    text-align: center;
+}
+
+/* Açık artırma öğesi içeriği */
+.auction-item {
+    background-color: white; /* Gri */
+    border: 2px solid #dfc1c1; /* Kırmızı */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Teklif verme formu */
+.bid-form {
+    background-color: #555; /* Daha koyu bir gri */
+    border: 2px solid #FF0000; /* Kırmızı */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+label {
+    color: #FF0000; /* Kırmızı */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+button {
+    background-color: #FF0000; /* Kırmızı */
+    color: #fff; /* Beyaz */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF3333; /* Kırmızının bir ton daha açığı */
+}

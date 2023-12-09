@@ -1,0 +1,29 @@
+.bid-list {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.bid-number {
+    font-weight: bold;
+}
+
+.bid-date {
+    color: #888;
+}
+
+.bid-amount {
+    font-weight: bold;
+    color: #2e8b57; /* Green color example */
+}

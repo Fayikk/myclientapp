@@ -1,0 +1,9 @@
+.circle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    background-color: silver /* Dairenin rengi */
+  }
